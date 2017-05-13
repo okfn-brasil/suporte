@@ -9,13 +9,13 @@ Neste repositório são registrados os tickets, as horas de suporte consumidas e
 
 No presente documento o termo  *infraestrutura* pode ser referente a: 
 
-* **infraestrutura de comunicação**: ambientes de comunicação da OKBr, tais como  ([blog e site](https://br.okfn.org/), [DiscussOKBr](https://discuss.okfn.org/c/local-groups/okbr), mail-admin, e outros.
+* **infraestrutura de comunicação**: ambientes de comunicação da OKBr, tais como  [blog e site](https://br.okfn.org/), [DiscussOKBr](https://discuss.okfn.org/c/local-groups/okbr), [mail-admin](http://admin.google.com/), e outros.
 
 * **infraestrutura básica**: vinculada à manutenção e preservação do patrimônio. Exemplo: gestão técnica dos [nomes de domínio](https://en.wikipedia.org/wiki/Domain_name), gestão das contas de e-mail `fulano@ok.org.br`, gestão dos [servidores-web](https://en.wikipedia.org/wiki/Web_server) e dos bancos de dados de uso comum (institucionais ou sendo reutilizados para mais de um projeto).
 
-* **infraestrutura de desenvolvimento**: infra dos projetos... repositórios de desenvolvimento, servidores-web de teste, bancos de dados temporários, etc.
+* **infraestrutura de desenvolvimento**: infra dos projetos... [repositórios](https://github.com/orgs/okfn-brasil) de desenvolvimento, servidores-web de teste, bancos de dados temporários, etc.
 
-Quando não for especificado, refere-se ao "caso geral", dado pela união dos casos listados acima.
+Quando o termo *infraestrutura* não vier especificado, refere-se ao "caso geral", dado pela união dos casos listados acima.
 
 ## Equipe de suporte e papeis
 
@@ -23,16 +23,23 @@ A Equipe de Suporte da OKBr requer uma ou mais pessoas autorizadas pela Diretori
 
 Papeis gerais e categoriais de serviços de suporte previstos:
 
-* **usuários-administradores** (da infraestrutura): são usuários com acesso completo à interface da infraestrutura, incluindo a capacidade de alterar privilégios de usuário e grupos. Eles são responsáveis por implementar qualquer decisão técnica de acordo com o consenso da comunidade, e podem lidar com situações de emergência, tais como vandalismos. 
+* usuários **administradores** (da infraestrutura): são usuários com acesso completo à interface da infraestrutura, incluindo a capacidade de alterar privilégios de usuário e grupos. Eles são responsáveis por implementar qualquer decisão técnica de acordo com o consenso da comunidade, e podem lidar com situações de emergência, tais como vandalismos. 
 
-* **moderadores**: usuários dos ambientes de comunicação, com privilégios menores que os usuários-administradores, para apoiar no acolhimento de novos usuários, resolução de conflitos, e encaminhamento (triagem) de solicitações de suporte. 
+* usuários **moderadores**: usuários dos ambientes de comunicação, com privilégios menores que os usuários-administradores, para apoiar no acolhimento de novos usuários, resolução de conflitos, e encaminhamento (triagem) de solicitações de suporte. 
 
 Os serviços são detalhados [nesta Wiki](https://github.com/okfn-brasil/suporte/wiki).
 
 ## Tarefas com ticket
 
-A princípio todas as tarefas requerem um ticket e sua contabilização como serviço de suporte requer a conclusão dos tickets. As poucas excesões são tratadas na seção "tarefas sem ticket" abaixo.
+A princípio todas as tarefas requerem um ticket e sua contabilização como serviço de suporte requer a conclusão dos tickets. As poucas excesões são tratadas na seção "tarefas sem ticket" abaixo. As tarefas com ticket recebem rótulo ([label](https://github.com/okfn-brasil/suporte/labels))  conforme finalidade:
 
+* infra-comunic: solicitação de manutenção da infraestrutura de comunicação.
+* infra-basica:  solicitação de manutenção da infraestrutura básica.
+* infra-desenv:  solicitação de manutenção da infraestrutura de desenvolvimento.
+* vandalismo: aviso de ocorrência de "vandalismo" (ex. spam no DiscussOKBR ou nas git/issues) 
+* acolhimento: pedido de apoio para acolher ou orientar novos usuários.
+* dominio: solicitação de manutenção do DNS ou domínio.
+* caixa-mail: ...
 * ...
 
 ### Registros dos  tikets
