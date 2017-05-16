@@ -1,4 +1,4 @@
-# Suporte
+# Termo de Referência dos Serviços da Equipe de Suporte da OKBr
 
 Regras, datasets e tickets de suporte, para a gestão e transparência da Equipe de Suporte da OKBr. Repositório oficial.
 
