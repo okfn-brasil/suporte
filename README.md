@@ -58,17 +58,19 @@ Uma série de atividades, principalmente vinculadas à comunicação, tomam temp
 
 * triagem de tickets: quando o próprio usuário redige a sua solicitação, é necessário que a equipe do suporte classifique e  revise. Alguns podem ser classificados como dúvidas, não sendo registrados como tickets de suporte. <br/>Complementa-se pelo registro do número de atendimentos sem demanda por resolução.
 
-**Nenhuma outra forma de atendimento sem ticket é prevista**. 
+**Nenhuma outra forma de atendimento sem ticket é prevista**.
 
 ## Dúvidas
 
-* COMO ENVIAR UM TICKET DE SUPORTE?<br/> É preciso apenas estar logado no Github. Ver ... com o passo-a-passo.
+* COMO CONFERIR TICKET DE SUPORTE EM ABERTO?<br/> É o link *"Issues"* na barra de navegação superior (URL [`okfn-brasil/suporte/issues`](https://github.com/okfn-brasil/suporte/issues)). Para encontrar o ticket ou assunto desejado, basta navegar, ou incluir uma palavra-chave mais ao lado de `is:issue is:open` (depois tecle *enter*)...  Ou ainda [navegar por rótulos](https://github.com/okfn-brasil/suporte/labels), clicando no rótulo desejado.
 
-* COMO LER E RESPONDER O TICKET DE SUPORTE?<br/> Da mesma forma, interagindo pela interface Github, que também permite o uso de e-mail.
+* COMO CRIAR UM TICKET DE SUPORTE?<br/> É preciso apenas estar logado no Github &mdash; [crie usuário](https://github.com/join) se não tiver um. Depois de navegar [entre os tickets abertos](https://github.com/okfn-brasil/suporte/issues) conferindo se assunto já não foi contemplado, pode criar um novo ticket com o botão *"New Issue"*. Qualquer dúvida ver o [guia com o passo-a-passo](https://help.github.com/articles/creating-an-issue/).
 
-* QUAL O PRAZO DE RESPOSTA?<br/> 12hs a 90hs conforme o caso, em dias comerciais.  ... Quando for necessário um agendamento de tarefa, a agenda deve ser comunicada por escrito neste prazo, também na interface do Github.  
+* COMO LER E RESPONDER O TICKET DE SUPORTE?<br/> Da mesma forma,  é preciso apenas estar logado no Github, senão nem aparece o editor de resposta. No final da página do tícket já fica pronta a caixa para escrita (tem aba "Write" e aba "preview" para uso durante edição), com botão verde no final  "Comment" que vai postar sua resposta depois de editada. Se você estiver recebendo por email, também pode responder direto por e-mail, e sua resposta também ficará registrada como *post*.
 
-NOTA: Pedimos que não envie tickets de suporte com o mesmo assunto se já existem tickets em aberto. Se já existem tickets em aberto, basta respondê-lo.
+* QUAL O PRAZO DE RESPOSTA?<br/> Quando a equipe estiver "em baixa", sem pessoas comprometidas por contrato, não se pode exigir delas um prazo. O status do suporte só muda quando da vigência de um *contrato de suporte*, voluntário ou por empreitada: aí, conforme a situação e o pedido, o prazo pode variar de 12hs a 90hs, contados em dias comerciais. Dentro deste prazo pode ainda acontecer da resposta ser um agendamento de tarefa, registrado por escrito na interface do ticket.
+
+NOTA: conforme expresso acima, pedimos que se não criem novos tickets de suporte, duplicando existente em aberto. Para reforçar um pedido em aberto basta acrescentar seu *post* de resposta, ou mesmo um simples *like*.
 
 -----
 
@@ -77,5 +79,3 @@ Todos os conteúdos deste repositório *git*, incluindo conteúdos postados por 
 [
 &nbsp;&nbsp;![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/88px-CC-BY_icon.svg.png)<br/>
 &nbsp;&nbsp;&nbsp;**CC-BY-3.0**](https://creativecommons.org/licenses/by/3.0/br/)
-
-
