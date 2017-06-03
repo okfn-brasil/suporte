@@ -5,6 +5,14 @@ Regras, datasets e tickets de suporte, para a gestão e transparência da Equipe
 A equipe de suporte realiza uma série de pequenos atendimentos e pequenos serviços,  que precisam ser registrados de forma transparente, tanto para a prestação de contas, como para tirar dúvidas e permitir o acompanhamento da comunidade.
 Neste repositório são registrados os tickets, as horas de suporte consumidas em cada ticket, as horas de atendimento consumidas com a triagem de solicitações, com e-mails, etc.
 
+Missão e perfil da Equipe de Suporte da OKBr:
+
+* _Profissionais credenciados_ e voluntários acolhedores sempre alertas;
+* _Garantia de satisfação_;
+* _Atendimento rápido_.
+
+As garantias são válidas quando existe *contrato vigente* com profissionais credenciados. [Confira aqui](https://br.okfn.org/time/#suporte) os contratos vigentes do time da OKBr.
+
 ## Infraestrutura
 
 No presente documento o termo  *infraestrutura* pode ser referente a: 
