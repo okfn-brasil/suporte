@@ -80,6 +80,13 @@ Uma série de atividades, principalmente vinculadas à comunicação, tomam temp
 
 NOTA: conforme expresso acima, pedimos que se não criem novos tickets de suporte, duplicando existente em aberto. Para reforçar um pedido em aberto basta acrescentar seu *post* de resposta, ou mesmo um simples *like*.
 
+## Modelos de contrato
+
+* Modelo de [Termo de Adesão ao Serviço de Suporte](https://docs.google.com/document/d/1WjNzO4Da4LdXVeSsf_B1qvpQcb5aietUP_d0uKtMWHY).
+
+* Modelo de [Contrato de Prestação de Serviço à OKBR](https://docs.google.com/document/d/13cikHpaZSaNxW1fk8iBDvkOT85f0_OC3rjleenOEVkc).
+
+
 -----
 
 ## Licença
