@@ -1,15 +1,21 @@
 --- VERSOES ---
-psql (PostgreSQL) 9.5.4
-PHP 7.0.8-0ubuntu0.16.04.3 (cli) ( NTS )
-Copyright (c) 1997-2016 The PHP Group
-Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
-    with Zend OPcache v7.0.8-0ubuntu0.16.04.3, Copyright (c) 1999-2016, by Zend Technologies
+psql (PostgreSQL) 9.6.3
+PHP 7.0.18-0ubuntu0.16.04.1 (cli) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.0.18-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
+Python 3.5.2
 git version 2.7.4
+Available applications:
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+  OpenSSH
 --- ETC ---
 phpinfo()
-PHP Version => 7.0.8-0ubuntu0.16.04.3
+PHP Version => 7.0.18-0ubuntu0.16.04.1
 
-System => Linux yellowtown.org 4.4.0-45-generic #66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016 x86_64
+System => Linux yellowserver 4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017 x86_64
 Server API => Command Line Interface
 Virtual Directory Support => disabled
 Configuration File (php.ini) Path => /etc/php/7.0/cli
@@ -52,15 +58,15 @@ Zend Signal Handling => disabled
 Zend Memory Manager => enabled
 Zend Multibyte Support => provided by mbstring
 IPv6 Support => enabled
-DTrace Support => enabled
+DTrace Support => available, disabled
 
 Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
 Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2
 Registered Stream Filters => zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, convert.iconv.*, mcrypt.*, mdecrypt.*
 
 This program makes use of the Zend Scripting Language Engine:
-Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
-    with Zend OPcache v7.0.8-0ubuntu0.16.04.3, Copyright (c) 1999-2016, by Zend Technologies
+Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.0.18-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
 
 
  _______________________________________________________________________
@@ -74,7 +80,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 7.0.8-0ubuntu0.16.04.3
+PHP Version => 7.0.18-0ubuntu0.16.04.1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -134,7 +140,7 @@ output_encoding => no value => no value
 output_handler => no value => no value
 post_max_size => 8M => 8M
 precision => 14 => 14
-realpath_cache_size => 16K => 16K
+realpath_cache_size => 4096K => 4096K
 realpath_cache_ttl => 120 => 120
 register_argc_argv => On => On
 report_memleaks => On => On
@@ -206,7 +212,7 @@ libmagic => 522
 filter
 
 Input Validation and Filtering => enabled
-Revision => $Id: 2c8dde9d49ae877877eccaf496c8f5a733b4f1c2 $
+Revision => $Id: 28fcca4bfda9c9907588a64d245b49cb398249d8 $
 
 Directive => Local Value => Master Value
 filter.default => unsafe_raw => unsafe_raw
@@ -300,7 +306,7 @@ mcrypt.modes_dir => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 5.0.12-dev - 20150407 - $Id: 241ae00989d1995ffcbbf63d579943635faf9972 $
+Client API library version => mysqlnd 5.0.12-dev - 20150407 - $Id: b5c5906d452ec590732a93b051f3827e02749b83 $
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -321,7 +327,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 5.0.12-dev - 20150407 - $Id: 241ae00989d1995ffcbbf63d579943635faf9972 $
+Version => mysqlnd 5.0.12-dev - 20150407 - $Id: b5c5906d452ec590732a93b051f3827e02749b83 $
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -531,7 +537,7 @@ PDO drivers => mysql
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 5.0.12-dev - 20150407 - $Id: 241ae00989d1995ffcbbf63d579943635faf9972 $
+Client API version => mysqlnd 5.0.12-dev - 20150407 - $Id: b5c5906d452ec590732a93b051f3827e02749b83 $
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -541,7 +547,7 @@ Phar
 Phar: PHP Archive support => enabled
 Phar EXT version => 2.0.2
 Phar API version => 1.1.1
-SVN revision => $Id: 860f5132d446a7b24c2bbf050ce6949381ea8db5 $
+SVN revision => $Id: 9d91fd26ae99260111b934cc25174387d4bd7059 $
 Phar-based phar archives => enabled
 Tar-based phar archives => enabled
 ZIP-based phar archives => enabled
@@ -560,7 +566,7 @@ phar.require_hash => On => On
 
 posix
 
-Revision => $Id: 771e31632526e20243748d73c150d8977fff1781 $
+Revision => $Id: b691ca925e7a085e6929579c4eba8fed0732e0ef $
 
 readline
 
@@ -574,7 +580,7 @@ cli.prompt => \b \>  => \b \>
 Reflection
 
 Reflection => enabled
-Version => $Id: 4c3f6240f4111de768fd771f35e2291d27631432 $
+Version => $Id: 7d703262f14bc65e05ff76fb3714c945f9bf961a $
 
 session
 
@@ -650,15 +656,15 @@ user_agent => no value => no value
 sysvmsg
 
 sysvmsg support => enabled
-Revision => $Id: b291daed03ee2339361df6b8cd4d9f5eb4c76387 $
+Revision => $Id: dfb999763f95bfe9609fae60b4e07a492888ec7c $
 
 sysvsem
 
-Version => 7.0.8-0ubuntu0.16.04.3
+Version => 7.0.18-0ubuntu0.16.04.1
 
 sysvshm
 
-Version => 7.0.8-0ubuntu0.16.04.3
+Version => 7.0.18-0ubuntu0.16.04.1
 
 tokenizer
 
@@ -703,6 +709,8 @@ opcache.revalidate_freq => 2 => 2
 opcache.revalidate_path => Off => Off
 opcache.save_comments => 1 => 1
 opcache.use_cwd => On => On
+opcache.validate_permission => Off => Off
+opcache.validate_root => Off => Off
 opcache.validate_timestamps => On => On
 
 zlib
@@ -727,68 +735,48 @@ Environment
 Variable => Value
 LESSOPEN => | /usr/bin/lesspipe %s
 MAIL => /var/mail/root
-SSH_CLIENT => 177.141.24.19 58252 22
+SSH_CLIENT => 189.62.42.169 52872 22
 USER => root
-LC_TIME => pt_BR.UTF-8
 SHLVL => 1
 HOME => /root
-OLDPWD => /tmp/sandbox
-SSH_TTY => /dev/pts/0
-LC_MONETARY => pt_BR.UTF-8
-LC_CTYPE => pt_BR.UTF-8
+OLDPWD => /opt/gits/suporte/webservers
+SSH_TTY => /dev/pts/2
 LOGNAME => root
 _ => /bin/sh
-XDG_SESSION_ID => 819
+XDG_SESSION_ID => 38
 TERM => xterm-256color
-PATH => /root/bin:/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-LC_ADDRESS => pt_BR.UTF-8
+PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 XDG_RUNTIME_DIR => /run/user/0
-LC_TELEPHONE => pt_BR.UTF-8
-LANG => C.UTF-8
+LANG => en_US.UTF-8
 LS_COLORS => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 SHELL => /bin/bash
-LC_NAME => pt_BR.UTF-8
 LESSCLOSE => /usr/bin/lesspipe %s %s
-LC_MEASUREMENT => pt_BR.UTF-8
-LC_IDENTIFICATION => pt_BR.UTF-8
-PWD => /tmp/sandbox/guia-config-servers
-SSH_CONNECTION => 177.141.24.19 58252 45.55.221.141 22
-LC_NUMERIC => pt_BR.UTF-8
-LC_PAPER => pt_BR.UTF-8
+PWD => /opt/gits/suporte/webservers/scripts
+SSH_CONNECTION => 189.62.42.169 52872 138.197.221.218 22
 
 PHP Variables
 
 Variable => Value
 $_SERVER['LESSOPEN'] => | /usr/bin/lesspipe %s
 $_SERVER['MAIL'] => /var/mail/root
-$_SERVER['SSH_CLIENT'] => 177.141.24.19 58252 22
+$_SERVER['SSH_CLIENT'] => 189.62.42.169 52872 22
 $_SERVER['USER'] => root
-$_SERVER['LC_TIME'] => pt_BR.UTF-8
 $_SERVER['SHLVL'] => 1
 $_SERVER['HOME'] => /root
-$_SERVER['OLDPWD'] => /tmp/sandbox
-$_SERVER['SSH_TTY'] => /dev/pts/0
-$_SERVER['LC_MONETARY'] => pt_BR.UTF-8
-$_SERVER['LC_CTYPE'] => pt_BR.UTF-8
+$_SERVER['OLDPWD'] => /opt/gits/suporte/webservers
+$_SERVER['SSH_TTY'] => /dev/pts/2
 $_SERVER['LOGNAME'] => root
 $_SERVER['_'] => /bin/sh
-$_SERVER['XDG_SESSION_ID'] => 819
+$_SERVER['XDG_SESSION_ID'] => 38
 $_SERVER['TERM'] => xterm-256color
-$_SERVER['PATH'] => /root/bin:/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-$_SERVER['LC_ADDRESS'] => pt_BR.UTF-8
+$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 $_SERVER['XDG_RUNTIME_DIR'] => /run/user/0
-$_SERVER['LC_TELEPHONE'] => pt_BR.UTF-8
-$_SERVER['LANG'] => C.UTF-8
+$_SERVER['LANG'] => en_US.UTF-8
 $_SERVER['LS_COLORS'] => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 $_SERVER['SHELL'] => /bin/bash
-$_SERVER['LC_NAME'] => pt_BR.UTF-8
 $_SERVER['LESSCLOSE'] => /usr/bin/lesspipe %s %s
-$_SERVER['LC_MEASUREMENT'] => pt_BR.UTF-8
-$_SERVER['LC_IDENTIFICATION'] => pt_BR.UTF-8
-$_SERVER['PWD'] => /tmp/sandbox/guia-config-servers
-$_SERVER['SSH_CONNECTION'] => 177.141.24.19 58252 45.55.221.141 22
-$_SERVER['LC_NUMERIC'] => pt_BR.UTF-8
-$_SERVER['LC_PAPER'] => pt_BR.UTF-8
+$_SERVER['PWD'] => /opt/gits/suporte/webservers/scripts
+$_SERVER['SSH_CONNECTION'] => 189.62.42.169 52872 138.197.221.218 22
 $_SERVER['PHP_SELF'] => 
 $_SERVER['SCRIPT_NAME'] => 
 $_SERVER['SCRIPT_FILENAME'] => 
@@ -812,18 +800,15 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 If you did not receive a copy of the PHP license, or have any
 questions about PHP licensing, please contact license@php.net.
 --- SERVICES ---
-● apache2.service - LSB: Apache2 web server
-  Drop-In: /lib/systemd/system/apache2.service.d
-   CGroup: /system.slice/apache2.service
-● mysql.service - MySQL Community Server
-   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
-   CGroup: /system.slice/mysql.service
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   CGroup: /system.slice/nginx.service
+Jul 26 22:58:58 yellowserver systemd[1]: nginx.service: Failed to read PID from file /run/nginx.pid: Invalid argument
+● mysql.service
 ● postgresql.service - PostgreSQL RDBMS
    Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
    CGroup: /system.slice/postgresql.service
  [ + ]  acpid
- [ + ]  apache-htcacheclean
- [ + ]  apache2
  [ + ]  apparmor
  [ + ]  apport
  [ + ]  atd
@@ -836,7 +821,6 @@ questions about PHP licensing, please contact license@php.net.
  [ - ]  cryptdisks
  [ - ]  cryptdisks-early
  [ + ]  dbus
- [ + ]  dovecot
  [ + ]  grub-common
  [ - ]  hostname.sh
  [ - ]  hwclock.sh
@@ -858,13 +842,14 @@ questions about PHP licensing, please contact license@php.net.
  [ - ]  mountkernfs.sh
  [ - ]  mountnfs-bootclean.sh
  [ - ]  mountnfs.sh
- [ + ]  mysql
  [ + ]  networking
+ [ + ]  nginx
  [ + ]  ondemand
  [ + ]  open-iscsi
+ [ - ]  open-vm-tools
+ [ + ]  php7.0-fpm
  [ - ]  plymouth
  [ - ]  plymouth-log
- [ + ]  postfix
  [ + ]  postgresql
  [ + ]  procps
  [ + ]  rc.local
@@ -880,7 +865,6 @@ questions about PHP licensing, please contact license@php.net.
  [ - ]  umountfs
  [ - ]  umountnfs.sh
  [ - ]  umountroot
- [ - ]  unattended-upgrades
+ [ + ]  unattended-upgrades
  [ + ]  urandom
  [ - ]  uuidd
- [ - ]  x11-common
