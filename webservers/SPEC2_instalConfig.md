@@ -33,7 +33,9 @@ se o diff acima não devolver nada (significa "arquivos identicos") então perfe
 pode pular se for só teste sem segurança.
 
 # step3
-é o mais demorado ... reservar pelo menos 10 minutos e cuidado com o ssh que pode perder conexão.
+Não foi incluso o PostgreSQL por estarmos adotado a versão nova, fora da distribuição LTS... Usar exatamente o que se pede [no site oficial postgresql.org/download/linux/ubuntu](https://www.postgresql.org/download/linux/ubuntu/). 
+
+Quanto ao `sh step3.sh` é o mais demorado ... reservar pelo menos 10 minutos e cuidado com o ssh que pode perder conexão.
 
 * http://git.ok.org.br/suporte/blob/master/server/scripts/step3.sh
 
@@ -61,6 +63,15 @@ Para o passo 2, editar com  `nano /etc/postgresql/9.6/main/pg_hba.conf` alterarn
 
 Fazer restar do servidor com `server postgresql restart`.
 
-# step4 - Postfix
+## certbot
 
-... Descartado, estamos usando G Suite sem custo.
+Use exatamente a instalação indicada em https://certbot.eff.org/#ubuntuxenial-nginx
+
+Criar interativamente os nomes 
+
+```
+certbot --nginx -d ok.org.br -d ok.org.br
+certbot --nginx -d oficial.news -d oficial.news
+# ...
+```
+
