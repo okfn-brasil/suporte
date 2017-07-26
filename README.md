@@ -8,7 +8,9 @@
 
 ## Dúvidas
 
-* COMO CONFERIR TICKET DE SUPORTE EM ABERTO?<br/> É o link *"Issues"* na barra de navegação superior (URL [`okfn-brasil/suporte/issues`](https://github.com/okfn-brasil/suporte/issues)). Para encontrar o ticket ou assunto desejado, basta navegar, ou incluir uma palavra-chave mais ao lado de `is:issue is:open` (depois tecle *enter*)...  Ou ainda [navegar por rótulos](https://github.com/okfn-brasil/suporte/labels), clicando no rótulo desejado.
+* QUAL O ENDEREÇO OFICIAL DO SUPORTE?<br/> [`suporte.ok.org.br`](http://suporte.ok.org.br). Para citar um *ticket de suporte* na forma de link, use `suporte.ok.org.br/ticket/{numero}`. <br/>PS: ambos são redirecionamentos para este site, com HTTP.
+
+* COMO CONFERIR TICKET DE SUPORTE EM ABERTO?<br/> É o link *"Issues"* no menu de navegação superior (citar [`suporte.ok.org.br/tickets`](http://suporte.ok.org.br/tickets)). Para encontrar o ticket ou assunto desejado, basta navegar, ou incluir uma palavra-chave mais ao lado de `is:issue is:open` (depois tecle *enter*)...  Ou ainda [navegar por rótulos](https://github.com/okfn-brasil/suporte/labels), clicando no rótulo desejado.
 
 * COMO CRIAR UM TICKET DE SUPORTE?<br/> É preciso apenas estar logado no Github &mdash; [crie usuário](https://github.com/join) se não tiver um. Depois de navegar [entre os tickets abertos](https://github.com/okfn-brasil/suporte/issues) conferindo se assunto já não foi contemplado, pode criar um novo ticket com o botão *"New Issue"*. Qualquer dúvida ver o [guia com o passo-a-passo](https://help.github.com/articles/creating-an-issue/).
 
