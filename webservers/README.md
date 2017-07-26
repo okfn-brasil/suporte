@@ -1,6 +1,6 @@
-# Servidor do oficial.news
+# Servidores Web da OKBr
 
-Preparo do servidor e da API Gateway do domínio OFICIAL.NEWS.
+Preparo dos servidores e da API Gateway de cada domínio.
 
 # ESPECIFICAÇÕES #
 
