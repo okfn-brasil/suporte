@@ -1,0 +1,153 @@
+##
+# Servidores OFICIAL.NEWS
+##
+
+server {
+        server_name  stats.oficial.news;
+
+        root  /srv/goaccess/html;
+        index index.html index.htm;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        include snippets/ssl-oficial.news.conf;
+} # end server
+
+server {
+        server_name  mira.org.br www.mira.org.br;
+
+        root /var/www/mira.org.br;
+        index index.html index.htm;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        include snippets/ssl-oficial.news.conf;
+} #end sever
+
+
+server {
+        server_name  oficial.news www.oficial.news;
+
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        include snippets/ssl-oficial.news.conf;
+
+} #end sever
+
+
+
+server {
+        server_name br-sp-org.oficial.news;
+
+        root /var/www/br-sp-org.oficial.news;
+        index index.html index.htm index.nginx-debian.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        include snippets/ssl-oficial.news.conf;
+} #end sever
+
+
+
+server {
+        server_name doc.oficial.news docs.oficial.news;
+
+        root /var/www/teste;
+        index index.html index.php index.htm index.nginx-debian.html;
+
+        location / {
+                try_files $uri $uri/ @proxy;
+        }
+
+        location @proxy {
+                rewrite
+                  ^/(.+?)\.(pdf|rss|txt|html?|docx?|odt|xml|csv)$
+                  https://github.com/okfn-brasil/discussOKBr-assets/raw/master/docs/$1.$2
+                  break;
+        }
+
+        include snippets/ssl-oficial.news.conf;
+
+} #end server
+
+
+server {
+        server_name readoc.oficial.news;
+
+        root /var/www/readoc;
+        index index.html index.htm index.nginx-debian.html;
+
+         # .pdf optional
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        include snippets/ssl-oficial.news.conf;
+
+} #end server
+
+
+server {
+        server_name trazdia.oficial.news;
+        location / {
+                proxy_pass https://trazdia.herokuapp.com;
+        }
+
+        include snippets/ssl-oficial.news.conf;
+
+} #end server
+
+
+server {
+        server_name  issn.oficial.news issnl.oficial.news;
+
+        root   /var/www/issn;
+        index  index.php index.html index.htm;
+
+        location  / {
+                try_files $uri $uri/ /resolve.php?q=$uri;
+        }
+
+        location  ~ \.php$ {
+                try_files $uri =404;
+                include /etc/nginx/fastcgi.conf;
+                #fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+        }
+
+        include snippets/ssl-oficial.news.conf;
+
+} #end server
+
+
+server {
+        server_name  teste.oficial.news;
+
+        root    /var/www/teste;
+        index   index.php index.html index.htm;
+
+        location  / {
+                try_files $uri $uri/ /ETC.php?q=$uri;
+        }
+
+	location  ~ \.php$ {
+		try_files $uri =404; 
+		include /etc/nginx/fastcgi.conf; # no script_filename
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock; 
+	}
+
+        include  snippets/ssl-oficial.news.conf;
+
+} #end server
+
+

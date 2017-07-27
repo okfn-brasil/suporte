@@ -17,3 +17,6 @@ service nginx status    | grep -E -i "nginx.service|Drop-In"
 service mysql status      | grep mysql.service
 service postgresql status | grep postgresql.service
 service --status-all
+pip --version
+
+mkdocs --version # miniguias

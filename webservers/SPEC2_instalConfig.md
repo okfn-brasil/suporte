@@ -1,6 +1,14 @@
 SPEC2 (passo-a-passo da instalação e configurações)
 
-Certificar-se de [ter preparado adequadamente conforme SPEC1](SPEC1_requisitosGerais.md).
+Conteúdo
+* [step1](#step1)
+* [step2](#step2)
+* [step3](#step3)
+* [steps adicionais](#steps adicionais)
+
+----
+
+Certificar-se de [ter preparado o ambiente conforme SPEC1](SPEC1_requisitosGerais.md).
 
 # step1
 
@@ -33,7 +41,7 @@ se o diff acima não devolver nada (significa "arquivos identicos") então perfe
 pode pular se for só teste sem segurança.
 
 # step3
-Não foi incluso o PostgreSQL por estarmos adotado a versão nova, fora da distribuição LTS... Usar exatamente o que se pede [no site oficial postgresql.org/download/linux/ubuntu](https://www.postgresql.org/download/linux/ubuntu/). 
+Não foi incluso o PostgreSQL por estarmos adotado a versão nova, fora da distribuição LTS... Usar exatamente o que se pede [no site oficial postgresql.org/download/linux/ubuntu](https://www.postgresql.org/download/linux/ubuntu/).
 
 Quanto ao `sh step3.sh` é o mais demorado ... reservar pelo menos 10 minutos e cuidado com o ssh que pode perder conexão.
 
@@ -42,6 +50,8 @@ Quanto ao `sh step3.sh` é o mais demorado ... reservar pelo menos 10 minutos e 
 Responder "Y" ou "yes" para tudo que terminar em "space will be used". Responder senha do MySQL duas vezes.
 
 No final conferir com `sh scripts/step3_checks.sh | diff dumps/step3.txt -` para atestar que foi tudo ok.
+
+# steps adicionais
 
 ## Pegadinhas do PostgreSQL
 Pode-se conferir se foi bem instalado com `id postres` (confirma que criou usuário) e `server postgresql status`.
@@ -67,11 +77,10 @@ Fazer restar do servidor com `server postgresql restart`.
 
 Use exatamente a instalação indicada em https://certbot.eff.org/#ubuntuxenial-nginx
 
-Criar interativamente os nomes 
+Criar interativamente os nomes
 
 ```
 certbot --nginx -d ok.org.br -d ok.org.br
 certbot --nginx -d oficial.news -d oficial.news
 # ...
 ```
-

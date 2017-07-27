@@ -4,19 +4,21 @@ Preparo dos servidores e da API Gateway de cada domínio.
 
 # ESPECIFICAÇÕES #
 
-* **SPEC1**: [Requisitos gerais](SPEC1_requisitosGerais.md)
+* **SPEC1** - [Requisitos gerais](SPEC1_requisitosGerais.md)
 
-* **SPEC2**: [Instalação e configuração](SPEC2_instalConfig.md)
+* **SPEC2** - [Instalação e configuração](SPEC2_instalConfig.md)
 
-* **SPEC3**: Backups
+* **SPEC3** - Backups
 
-* **SPEC4**: Testes de restauro dos backups.
+* **SPEC4** - Testes de restauro dos backups
 
-* **SPEC5**: Referências normativas e de apoio.
+* **SPEC5** - Referências normativas e de apoio
 
 -----
 
 # SCRIPTS E TESTES
+Cada uma das especificações, principalmente SPEC2, pode oferecer um "resumo" em forma de script: para satisfazer a SPEC basta rodar  o script no terminal.
+
 Os [scripts](scripts) resumem e facilitam o refazer do passo-a-passo descrito pelas especificações. Com `_check.sh` compare-se com o feito anteriormente.
 
 ```

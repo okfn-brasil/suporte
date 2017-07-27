@@ -1,13 +1,15 @@
 SPEC1 (Requisitos Gerais)
 
-* [**Preparo do client** do operador das instalações](#preparo-do-client)
-* [**Preparo da VM** (Droplet)](#preparo-da-vm)  contendo os servers
+Conteúdo
 
-Continua em [SPEC2](SPEC2_instalConfig.md).
+* [**Preparo do _client_** operado pelo usuário que realiza as instalações](#preparo-do-client)
+* [**Instalação da VM** (Droplet)](#preparo-da-vm)  contendo os servers
+
+(continua em [SPEC2](SPEC2_instalConfig.md))
 
 ----
 
-Processo de instalação "a partir do zero"...
+Preparos e instalações, descrevendo o processo  "a partir do zero".
 
 # Preparo do client #
 
