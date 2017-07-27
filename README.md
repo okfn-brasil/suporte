@@ -1,10 +1,19 @@
 # Suporte e infraestrutura da OKBR
 
-* [Termo de Referência dos Serviços da Equipe de Suporte da OKBr](docs/termo.md): define regras  para a formação e trabalho da Equipe de Suporte.
-* infra: .. por hora ver no Termo de referência, falta separar os documentos.
-  * [webservers](webservers).
-  
-* gestão de tickts: .. por hora ver no Termo de referência, falta separar os documentos.
+Conteúdo orientado à Equipe de Suporte:
+
+* [Termo de Referência dos Serviços da Equipe de Suporte da OKBr](docs/termo.md)
+
+* [Infraestrutura Digital da OKBr](docs/infra.md)
+
+  * [webservers](webservers)
+
+Conteúdo orientado ao usuário em geral:
+
+* [Dúvidas](#duvidas)
+* [Gestão de _tickts_ do Suporte OKBr](docs/tickets.md)
+
+-----
 
 ## Dúvidas
 
