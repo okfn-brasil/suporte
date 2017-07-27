@@ -140,14 +140,38 @@ server {
         }
 
 	location  ~ \.php$ {
-		try_files $uri =404; 
+		try_files $uri =404;
 		include /etc/nginx/fastcgi.conf; # no script_filename
                 fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-		fastcgi_pass unix:/run/php/php7.0-fpm.sock; 
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
 	}
 
         include  snippets/ssl-oficial.news.conf;
 
 } #end server
 
+### from ok.org.br, transição para cá:
 
+server {
+        server_name ver.oficial.news view.oficial.news;
+        root /var/www/readoc;
+        index index.html index.htm index.nginx-debian.html;
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        include snippets/ssl-oficial.news.conf;
+} #end server
+
+server {
+        server_name baixar.ok.org.br file.ok.org.br;
+        location / {
+                try_files $uri $uri/ @proxy;
+        }
+        location @proxy {
+                rewrite   # vai ser service por base de dados.
+                  ^/(.+?)\.(pdf|rss|txt|epub|docx?|odt|xml|csv)$
+                  https://github.com/okfn-brasil/oficial-backups/raw/master/docs/$1.$2
+                  break;
+        }
+        include snippets/ssl-oficial.news.conf;
+} #end server

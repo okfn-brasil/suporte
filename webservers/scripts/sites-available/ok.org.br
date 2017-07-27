@@ -137,7 +137,7 @@ server {
                         /resolver.php?$uri            last;
 		rewrite ^/?getfrag($|/)
 			/frag-resolver.php?uri=$uri   last;
-		rewrite ^/?(.*)$ 
+		rewrite ^/?(.*)$
 			/error.php?$1                 last;
 	}
 
@@ -161,7 +161,7 @@ server {
         location @proxy {
                 rewrite
                   ^/(.+?)\.(pdf|rss|txt|epub|docx?|odt|xml|csv)$
-                  https://github.com/okfn-brasil/discussOKBr-assets/raw/master/docs/$1.$2
+                  https://github.com/okfn-brasil/oficial-backups/raw/master/docs/$1.$2
                   break;
         }
 
@@ -182,4 +182,3 @@ server {
         include snippets/ssl-oficial.news.conf;
 
 } #end server
-
