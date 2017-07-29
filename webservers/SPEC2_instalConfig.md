@@ -4,7 +4,7 @@ Conteúdo
 * [step1](#step1)
 * [step2](#step2)
 * [step3](#step3)
-* [steps adicionais](#steps adicionais)
+* [steps adicionais](#steps-adicionais)
 
 ----
 
@@ -22,7 +22,7 @@ pwd
 ```
 o resultado do `pwd`  deverá ser `/tmp/sandbox/suporte`.
 
-rodar [step1](http://git.ok.org.br/suporte/blob/master/server/scripts/step1.sh)
+rodar [step1](http://git.ok.org.br/suporte/blob/master/webservers/scripts/step3.sh)
 ou seja `sh scripts/step1.sh`. **Atenção**:
 * manter terminal em janela grande para não comprometer telas interativas
 * usar espaço para selecionar/deselecionar o pt-BR na primeira tela interativa
@@ -51,7 +51,7 @@ Responder "Y" ou "yes" para tudo que terminar em "space will be used". Responder
 
 No final conferir com `sh scripts/step3_checks.sh | diff dumps/step3.txt -` para atestar que foi tudo ok.
 
-# steps adicionais
+# Steps adicionais
 
 ## Pegadinhas do PostgreSQL
 Pode-se conferir se foi bem instalado com `id postres` (confirma que criou usuário) e `server postgresql status`.
@@ -72,6 +72,11 @@ GRANT ALL PRIVILEGES ON DATABASE postgres to postgres;
 Para o passo 2, editar com  `nano /etc/postgresql/9.6/main/pg_hba.conf` alterarndo a linha com `local   all             postgres                  peer`, o final "peer" por `md5`.
 
 Fazer restar do servidor com `server postgresql restart`.
+
+## Pegadinhas do Docker
+A instalação do Docker deve seguir o tutorial [digitalocean.com/how-to-install-and-use-docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04). Como tutorial para iniciantes, ensinando o jargão e a arquitetura,  sugere-se [docker.com/docker-overview](https://docs.docker.com/engine/docker-overview).
+
+Nos testes com `service docker status` e `sudo docker info` a  mensagem "WARNING swap zero" não é problema. Na DigitalOcean usamos SSD no servidor, ver [eaclarecimento sobre SWAP zero em SSD](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04).
 
 ## certbot
 
