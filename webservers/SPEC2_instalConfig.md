@@ -78,6 +78,8 @@ A instalação do Docker deve seguir o tutorial [digitalocean.com/how-to-install
 
 Nos testes com `service docker status` e `sudo docker info` a  mensagem "WARNING swap zero" não é problema. Na DigitalOcean usamos SSD no servidor, ver [eaclarecimento sobre SWAP zero em SSD](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04).
 
+Para relatar e discutir erros, use `journalctl -u docker.service > docker-log.txt`, que não trunca as linhas e mostra o log de erros e *warning* mais recente.
+
 ## certbot
 
 Use exatamente a instalação indicada em https://certbot.eff.org/#ubuntuxenial-nginx
