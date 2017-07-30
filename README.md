@@ -1,6 +1,6 @@
-# Suporte e infraestrutura da OKBR
+# Suporte
 
-Conteúdo orientado à Equipe de Suporte:
+Contéudo orientado à Equipe de Suporte:
 
 * [Termo de Referência dos Serviços da Equipe de Suporte da OKBr](docs/termo.md)
 
@@ -8,16 +8,27 @@ Conteúdo orientado à Equipe de Suporte:
 
   * [webservers](webservers)
 
+* Gestão dos *datasets* e arquivos no [oficial-backups](https://git.ok.org.br/oficial.news), em conformidade com diretivas da OKFN, [frictionlessdata.io/data-packages](http://frictionlessdata.io/data-packages/), etc.
+
 Conteúdo orientado ao usuário em geral:
 
-* [Dúvidas](#duvidas)
+* [Dúvidas básicas](#duvidas) (abaixo)
 * [Gestão de _tickts_ do Suporte OKBr](docs/tickets.md)
+* [Perguntas e respostas](docs/faq.md)  (dúvidas mais específicas)
+
+-----
+
+A equipe de suporte realiza uma série de pequenos atendimentos e pequenos serviços, que precisam ser registrados de forma transparente, tanto para a prestação de contas, como para tirar dúvidas e permitir o acompanhamento da comunidade.
+
+Neste repositório são registradas as regras, *datasets* e os _tickets de suporte_, para a gestão e transparência da Equipe de Suporte da OKBr.
 
 -----
 
 ## Dúvidas
 
-* QUAL O ENDEREÇO OFICIAL DO SUPORTE?<br/> [`suporte.ok.org.br`](http://suporte.ok.org.br). Para citar um *ticket de suporte* na forma de link, use `suporte.ok.org.br/ticket/{numero}`. <br/>PS: ambos são redirecionamentos para este site, com HTTP.
+* QUAL O ENDEREÇO OFICIAL DO SUPORTE?<br/> [`suporte.ok.org.br`](http://suporte.ok.org.br). Para citar um *ticket de suporte* na forma de link, use `suporte.ok.org.br/ticket/{numero}`. <br/>PS: ambos são redirecionamentos para este site, via HTTP.
+
+* O QUE SÂO OS _TICKETS DE SUPORTE_?<br/> São o mecanismo de controle dos chamados à Equipe de Suporte. Cada vez que você descobre aguma **falha na infraestrutura da OKBr**, pode descrevê-la abrindo ticket de aviso de bug ou simplesmente de dúvida, para conferir se é de fato uma falha, ou se pode vir a ser uma sugestão de melhor. Quem rotula se era falha, dúvida ou outra coisa, é a própria equipe, não se preocupe. <br/>Se a dúvida for respondida ou a falha for corrigida, você pode então "fechar o ticket" (se demorar ele fecha por inatividade). Os tickets, por serem numerados e ficarem permanentemente registrados, podem ser utilizados também para discussões técnicas e **controle dos contratos de suporte**. Veja maiores detalhes na [Gestão de _tickts_ do Suporte OKBr](docs/tickets.md).
 
 * COMO CONFERIR TICKET DE SUPORTE EM ABERTO?<br/> É o link *"Issues"* no menu de navegação superior (citar [`suporte.ok.org.br/tickets`](http://suporte.ok.org.br/tickets)). Para encontrar o ticket ou assunto desejado, basta navegar, ou incluir uma palavra-chave mais ao lado de `is:issue is:open` (depois tecle *enter*)...  Ou ainda [navegar por rótulos](https://github.com/okfn-brasil/suporte/labels), clicando no rótulo desejado.
 
