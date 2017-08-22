@@ -58,6 +58,24 @@ Uma série de atividades, principalmente vinculadas à comunicação, tomam temp
 
 **Nenhuma outra forma de atendimento sem ticket é prevista**.
 
+## Tarefas com risco de segurança 
+
+Alguns (um ou dois) membros da equipe de suporte, tipicamente _administradores_, recebem senhas e acesso a partes críticas de sistemas ou infra-estrutura:
+
+* conexão ao "usuário master" das base de dados;
+* conexão SSH a um ou mais servidores;
+* administração dos e-mails (ex. login administrativo no G-Suite)
+* administração dos domínios (ex. login administrativo no RegistroBR);
+* administração dos DNS-records (ex. login no site da DigitalOcean);
+* administração de meios de pagamento (por exemplo login à Carteira Bitcoin da OKBr).
+
+Esses membros precisam ser autorizados pelo Diretor Executivo e/ou pelo Conselho Deliberativo, por se tratar de risco ao patrimônio da OKBr e atividade crítica que pode impactar projetos, programas e associados. As regras e condições mínimas de operaço são as seguintes:
+
+1. Responsabilização pelas senhas e IDs secretos que lhe são entregues, cumprindo os procedimentos indicados (por exemplo não registrar esses dados em arquivos do computador, apenas em papel seguro).
+
+2. Responsabilização pela avaliação da rede (ex. Lan Houses não são adequadas a esse tipo de trabalho) e da máquina onde se dará o acesso, cumprindo os procedimentos indicados (ex. usar [pendrive Tails](https://tails.boum.org/) no lugar do sistema usual do computador).
+
+
 ## Gestão dos Tickets
 
 Ver [tickets.md](tickets.md).
