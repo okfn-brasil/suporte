@@ -58,7 +58,7 @@ Uma série de atividades, principalmente vinculadas à comunicação, tomam temp
 
 **Nenhuma outra forma de atendimento sem ticket é prevista**.
 
-## Tarefas com risco de segurança 
+## Tarefas com risco de quebra da segurança 
 
 Alguns (um ou dois) membros da equipe de suporte, tipicamente _administradores_, recebem senhas e acesso a partes críticas de sistemas ou infra-estrutura:
 
