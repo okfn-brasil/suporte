@@ -1,9 +1,8 @@
 --- VERSOES ---
-psql (PostgreSQL) 9.6.3
-PHP 7.0.18-0ubuntu0.16.04.1 (cli) ( NTS )
+PHP 7.0.22-0ubuntu0.16.04.1 (cli) ( NTS )
 Copyright (c) 1997-2017 The PHP Group
 Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
-    with Zend OPcache v7.0.18-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
+    with Zend OPcache v7.0.22-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
 Python 3.5.2
 git version 2.7.4
 Available applications:
@@ -13,9 +12,9 @@ Available applications:
   OpenSSH
 --- ETC ---
 phpinfo()
-PHP Version => 7.0.18-0ubuntu0.16.04.1
+PHP Version => 7.0.22-0ubuntu0.16.04.1
 
-System => Linux yellowserver 4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017 x86_64
+System => Linux oficalNews2018 4.4.0-112-generic #135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018 x86_64
 Server API => Command Line Interface
 Virtual Directory Support => disabled
 Configuration File (php.ini) Path => /etc/php/7.0/cli
@@ -66,7 +65,7 @@ Registered Stream Filters => zlib.*, string.rot13, string.toupper, string.tolowe
 
 This program makes use of the Zend Scripting Language Engine:
 Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
-    with Zend OPcache v7.0.18-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
+    with Zend OPcache v7.0.22-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
 
 
  _______________________________________________________________________
@@ -80,7 +79,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 7.0.18-0ubuntu0.16.04.1
+PHP Version => 7.0.22-0ubuntu0.16.04.1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -580,7 +579,7 @@ cli.prompt => \b \>  => \b \>
 Reflection
 
 Reflection => enabled
-Version => $Id: 7d703262f14bc65e05ff76fb3714c945f9bf961a $
+Version => $Id: 5b162f759ed700573e0cb3095c8f89a70970748a $
 
 session
 
@@ -660,11 +659,11 @@ Revision => $Id: dfb999763f95bfe9609fae60b4e07a492888ec7c $
 
 sysvsem
 
-Version => 7.0.18-0ubuntu0.16.04.1
+Version => 7.0.22-0ubuntu0.16.04.1
 
 sysvshm
 
-Version => 7.0.18-0ubuntu0.16.04.1
+Version => 7.0.22-0ubuntu0.16.04.1
 
 tokenizer
 
@@ -734,49 +733,51 @@ Environment
 
 Variable => Value
 LESSOPEN => | /usr/bin/lesspipe %s
+SUDO_GID => 1000
 MAIL => /var/mail/root
-SSH_CLIENT => 189.62.42.169 52872 22
 USER => root
 SHLVL => 1
 HOME => /root
-OLDPWD => /opt/gits/suporte/webservers
-SSH_TTY => /dev/pts/2
+OLDPWD => /opt/gits/suporte
+SUDO_UID => 1000
 LOGNAME => root
 _ => /bin/sh
-XDG_SESSION_ID => 38
 TERM => xterm-256color
-PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-XDG_RUNTIME_DIR => /run/user/0
-LANG => en_US.UTF-8
+USERNAME => root
+PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+LANG => C.UTF-8
 LS_COLORS => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_MESSAGES => C.UTF-8
+SUDO_COMMAND => /bin/su
 SHELL => /bin/bash
+SUDO_USER => peter
 LESSCLOSE => /usr/bin/lesspipe %s %s
 PWD => /opt/gits/suporte/webservers/scripts
-SSH_CONNECTION => 189.62.42.169 52872 138.197.221.218 22
 
 PHP Variables
 
 Variable => Value
 $_SERVER['LESSOPEN'] => | /usr/bin/lesspipe %s
+$_SERVER['SUDO_GID'] => 1000
 $_SERVER['MAIL'] => /var/mail/root
-$_SERVER['SSH_CLIENT'] => 189.62.42.169 52872 22
 $_SERVER['USER'] => root
 $_SERVER['SHLVL'] => 1
 $_SERVER['HOME'] => /root
-$_SERVER['OLDPWD'] => /opt/gits/suporte/webservers
-$_SERVER['SSH_TTY'] => /dev/pts/2
+$_SERVER['OLDPWD'] => /opt/gits/suporte
+$_SERVER['SUDO_UID'] => 1000
 $_SERVER['LOGNAME'] => root
 $_SERVER['_'] => /bin/sh
-$_SERVER['XDG_SESSION_ID'] => 38
 $_SERVER['TERM'] => xterm-256color
-$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-$_SERVER['XDG_RUNTIME_DIR'] => /run/user/0
-$_SERVER['LANG'] => en_US.UTF-8
+$_SERVER['USERNAME'] => root
+$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+$_SERVER['LANG'] => C.UTF-8
 $_SERVER['LS_COLORS'] => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+$_SERVER['LC_MESSAGES'] => C.UTF-8
+$_SERVER['SUDO_COMMAND'] => /bin/su
 $_SERVER['SHELL'] => /bin/bash
+$_SERVER['SUDO_USER'] => peter
 $_SERVER['LESSCLOSE'] => /usr/bin/lesspipe %s %s
 $_SERVER['PWD'] => /opt/gits/suporte/webservers/scripts
-$_SERVER['SSH_CONNECTION'] => 189.62.42.169 52872 138.197.221.218 22
 $_SERVER['PHP_SELF'] => 
 $_SERVER['SCRIPT_NAME'] => 
 $_SERVER['SCRIPT_FILENAME'] => 
@@ -803,11 +804,8 @@ questions about PHP licensing, please contact license@php.net.
 ● nginx.service - A high performance web server and a reverse proxy server
    Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
    CGroup: /system.slice/nginx.service
-Jul 26 22:58:58 yellowserver systemd[1]: nginx.service: Failed to read PID from file /run/nginx.pid: Invalid argument
 ● mysql.service
-● postgresql.service - PostgreSQL RDBMS
-   Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
-   CGroup: /system.slice/postgresql.service
+● postgresql.service
  [ + ]  acpid
  [ + ]  apparmor
  [ + ]  apport
@@ -850,7 +848,6 @@ Jul 26 22:58:58 yellowserver systemd[1]: nginx.service: Failed to read PID from 
  [ + ]  php7.0-fpm
  [ - ]  plymouth
  [ - ]  plymouth-log
- [ + ]  postgresql
  [ + ]  procps
  [ + ]  rc.local
  [ + ]  resolvconf
@@ -859,7 +856,6 @@ Jul 26 22:58:58 yellowserver systemd[1]: nginx.service: Failed to read PID from 
  [ - ]  screen-cleanup
  [ - ]  sendsigs
  [ + ]  ssh
- [ - ]  sysstat
  [ + ]  udev
  [ + ]  ufw
  [ - ]  umountfs
@@ -868,3 +864,5 @@ Jul 26 22:58:58 yellowserver systemd[1]: nginx.service: Failed to read PID from 
  [ + ]  unattended-upgrades
  [ + ]  urandom
  [ - ]  uuidd
+pip 9.0.1 from /usr/local/lib/python2.7/dist-packages (python 2.7)
+mkdocs, version 0.17.2
