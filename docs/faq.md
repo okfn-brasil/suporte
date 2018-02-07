@@ -1,7 +1,7 @@
 # PERGUNTAS FREQUENTES
 Perguntas e respostas com mais explicações.
 
-Existem também dezenas de tutoriais sobre "Github issues" (cada *ticket* é uma *issue*), ver por exemplo [Mastering Issues](https://guides.github.com/features/issues/). E na própria OKBr temos dezenas de outros exemplos... Para quem não é programador o melhor é o [histórico de *issues* do projeto Identidade-digital](Exemplos da Indetidade: https://github.com/okfn-brasil/identidade-digital/issues?q=is%3Aissue%20).
+Existem também dezenas de tutoriais sobre "Github issues" (cada *ticket* é uma *issue*), ver por exemplo [Mastering Issues](https://guides.github.com/features/issues/). E na própria OKBr temos dezenas de outros exemplos... Para quem não é programador o melhor é o [histórico de *issues* do projeto Identidade-digital](https://github.com/okfn-brasil/identidade-digital/issues?q=is%3Aissue%20).
 
 A seguir
 
@@ -61,7 +61,3 @@ Em primeiro lugar, se gostou, vai lá no [ticket #16](https://suporte.ok.org.br/
 
 As maneiras de colaborar são comentadas acima... Quanto a colaborar discutindo, ou à dinâmica que leva da proposta ao encerramento, o melhor é pegar o espírito da coisa pelos exemplos... Veja os  [exemplos da indentidade-digital](https://github.com/okfn-brasil/identidade-digital/issues?q=is%3Aissue+is%3Aclosed).
 
-
-
-
-Abs
