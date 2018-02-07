@@ -14,19 +14,18 @@ Certificar-se de [ter preparado o ambiente conforme SPEC1](SPEC1_requisitosGerai
 
 Em seguida, a primeira coisa a fazer depois da troca de senha no `ssh`,  clonar o git deste projeto:
 ```sh
-mkdir /tmp/sandbox  # ou /opt/gits  para permanente
-cd /tmp/sandbox
-git clone http://git.ok.org.br/oficial.news.git
-cd guia-config-servers
+mkdir /opt/gits
+cd /opt/gits
+git clone http://git.ok.org.br/suporte.git
+cd suporte/webservers
 pwd
 ```
-o resultado do `pwd`  deverá ser `/tmp/sandbox/suporte`.
+o resultado do `pwd`  deverá ser `/opt/gits/suporte/webservers`.
 
-rodar [step1](http://git.ok.org.br/suporte/blob/master/webservers/scripts/step3.sh)
-ou seja `sh scripts/step1.sh`. **Atenção**:
+rodar [step1](http://git.ok.org.br/suporte/blob/master/webservers/scripts/step1.sh), ou seja, rodar  `sh scripts/step1.sh`. **Atenção**:
 * manter terminal em janela grande para não comprometer telas interativas
-* usar espaço para selecionar/deselecionar o pt-BR na primeira tela interativa
-* posicionar o cursor sobre C.en-UTF8 na segunda tela, relativa ao ambiente shel, que precisa ser ingles para as mensagens de erro serem mais facilmente rastreáveis em guias e fóruns bons.
+* usar espaço para selecionar/deselecionar o pt-BR na primeira tela interativa ... Vão aparecer 3 isntalados C, en e pt-BR, o que já é bom sinal.
+* em resposta a "Configurando locales" posicionar o cursor sobre `C.UTF8` na segunda tela, relativa ao ambiente shel, que precisa ser ingles para as mensagens de erro serem mais facilmente rastreáveis em guias e fóruns bons.
 * sair do shel com `exit`
 
 Ao voltar com `ssh`,
